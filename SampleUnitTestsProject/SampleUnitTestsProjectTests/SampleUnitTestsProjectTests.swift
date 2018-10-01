@@ -20,7 +20,7 @@ class SampleUnitTestsProjectTests: XCTestCase {
     }
 
     func testExample() {
-        let jsonResult = nil
+        let jsonResult = ""
         XCTAssertNotNil(jsonResult)
     }
 
