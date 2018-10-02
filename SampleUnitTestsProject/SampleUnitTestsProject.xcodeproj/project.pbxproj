@@ -14,7 +14,6 @@
 		591154DF21617081008D9199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591154DD21617081008D9199 /* LaunchScreen.storyboard */; };
 		591154EA21617081008D9199 /* SampleUnitTestsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591154E921617081008D9199 /* SampleUnitTestsProjectTests.swift */; };
 		591154F521617081008D9199 /* SampleUnitTestsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591154F421617081008D9199 /* SampleUnitTestsProjectUITests.swift */; };
-		5911550A216304B0008D9199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59115509216304B0008D9199 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5911550A216304B0008D9199 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +447,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SampleUnitTestsProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,6 +466,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SampleUnitTestsProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
